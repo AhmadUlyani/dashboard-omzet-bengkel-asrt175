@@ -1,0 +1,42 @@
+[theme]
+base = "light"
+# biru untuk data dan elemen aktif, oranye untuk sorotan, sama dengan palet chart
+primaryColor = "#1c5cab"
+backgroundColor = "#f4f6f9"
+secondaryBackgroundColor = "#e9edf2"
+textColor = "#1d2533"
+borderColor = "#dde2e9"
+linkColor = "#1c5cab"
+linkUnderline = false
+blueColor = "#2a78d6"
+orangeColor = "#eb6834"
+greenColor = "#1baf7a"
+redColor = "#d64545"
+# IBM Plex Sans membedakan karakter yang mirip (1/l, 0/O) sehingga nilai Rupiah mudah dibaca
+font = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+headingFont = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600;700&display=swap"
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+metricValueFontSize = "1.55rem"
+metricValueFontWeight = 700
+# radius sudut yang sama untuk panel, tombol, dan input
+baseRadius = "0.4rem"
+buttonRadius = "0.4rem"
+showWidgetBorder = true
+showSidebarBorder = true
+paddingTop = "1.25rem"
+paddingBottom = "2.5rem"
+
+# sidebar putih agar terpisah dari latar halaman yang abu-abu muda
+[theme.sidebar]
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f4f8"
+textColor = "#1d2533"
+borderColor = "#dde2e9"
+primaryColor = "#1c5cab"
+linkColor = "#1c5cab"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
